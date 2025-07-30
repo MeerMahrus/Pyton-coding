@@ -1,0 +1,6 @@
+print("My name is Meer")
+print("My mothers name is Toma")
+print("My fathers name is Sazib")
+print("I study in class 5 ")
+print("My favourite subject is Science")
+print("And my favorite food is egg fried rice")
