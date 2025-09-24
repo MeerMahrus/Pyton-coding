@@ -1,6 +1,6 @@
-l = input("Enter a letter: ").lower()
+a = input("Enter a word ")
 
-if l in ["a","e","i","o","u"]:
-    print("This is a vowel")
+if a in ["a","e","i","o","u"]:
+    print("this is a vowel ")
 else:
-    print("This is a consnent")
+    print("This is a consunent")
