@@ -1,6 +1,15 @@
-a = int(input("Enter a number"))
+row = int(input("Enter the number of rows"))
 
-if a % 2 == 0:
-    print("The nummber is even")
+if row % 2 == 0:
+   half = row // 2 
 else:
-    print("The number is odd")
+    half = row // 2+ 1
+    
+space = half -1
+
+for i in range(1, half + 1):
+    print(" "* space * "*" (2 * i - 1))
+    space = space - 1
+for i in range(half 1 ,0 - 1):
+    print(" "* space * "*" (2 * i - 1))
+    space = space- 1
