@@ -1,15 +1,13 @@
-row = int(input("Enter the number of rows"))
+running = True 
 
-if row % 2 == 0:
-   half = row // 2 
-else:
-    half = row // 2+ 1
-    
-space = half -1
-
-for i in range(1, half + 1):
-    print(" "* space * "*" (2 * i - 1))
-    space = space - 1
-for i in range(half 1 ,0 - 1):
-    print(" "* space * "*" (2 * i - 1))
-    space = space- 1
+while  running:
+    n = input("Enter an number or type 'exit' to quit: ").lower()
+    if n == "exit":
+        running = False
+        print("bye bye")
+    else:
+        n = int(n)
+        if n % 2 == 0:
+            print("THe number is even")
+        else:
+            print("The number is odd")
